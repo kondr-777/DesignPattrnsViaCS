@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="Имя = ClassTemplate" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="ProjectPath = ..\Modeling.Maze_000Lib\Modeling.Maze_000Lib.csproj" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="Привязка шаблона текста, принадлежащая Modeling.Maze_000: &quot;ClassTemplate&quot; применит ClassTemplate.t4 к: &quot;Modeling.Maze_000::Zame0::Maze&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::MapSite&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Door&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Wall&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Room&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::MazeGame&quot; -  (Class) " />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::Maze&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\Maze.cs" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::MapSite&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\MapSite.cs" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::Door&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\Door.cs" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::Wall&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\Wall.cs" />
+  <Message Timestamp="2022-11-13T15:30:32" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::Room&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\Room.cs" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::MazeGame&quot; -  (Class) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\MazeGame.cs" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="Имя = EnumTemplate" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="ProjectPath = ..\Modeling.Maze_000Lib\Modeling.Maze_000Lib.csproj" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Medium" Text="Привязка шаблона текста, принадлежащая Modeling.Maze_000: &quot;EnumTemplate&quot; применит EnumTemplate.t4 к: &quot;Modeling.Maze_000::Zame0::Direction&quot; -  (Enumeration) " />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Medium" Text="&quot;Modeling.Maze_000::Zame0::Direction&quot; -  (Enumeration) : успешно (файл заменен) - C:\Users\kondratev\Documents\Visual Studio 2015\Projects\DesignPattrnsViaCS\Modeling.Maze_000Lib\GeneratedCode\Zame0\Direction.cs" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="Имя = StructTemplate" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="ProjectPath = ..\Modeling.Maze_000Lib\Modeling.Maze_000Lib.csproj" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Medium" Text="Привязка шаблона текста, принадлежащая Modeling.Maze_000: &quot;StructTemplate&quot; применит StructTemplate.t4 к: &quot;Modeling.Maze_000::Zame0::Maze&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::MapSite&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Door&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Wall&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::Room&quot; -  (Class), &quot;Modeling.Maze_000::Zame0::MazeGame&quot; -  (Class) " />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::Maze&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::MapSite&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::Door&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::Wall&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::Room&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::MazeGame&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="Выбрано 8 элементов, не связанных с шаблоном." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;dd8fc609-37f4-4b1a-b859-b773916fd04e&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;109ce613-6239-4811-ac3b-ecb9226d6fe1&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;fcc7c6eb-8d64-4f58-acf1-ade931a00e1b&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0&quot; -  (Package): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::&quot; -  (Association): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::&quot; -  (Association): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::&quot; -  (Association): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="Diagnostic" Text="&quot;Modeling.Maze_000::Zame0::&quot; -  (Association): нет привязанных шаблонов." />
+  <Message Timestamp="2022-11-13T15:30:33" Importance="High" Text="Создание кода завершено. Ошибок: 0. Предупреждений: 0." />
+</Log>
