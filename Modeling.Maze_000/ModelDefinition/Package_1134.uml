@@ -2275,10 +2275,5 @@
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
-    <packageHasNamedElement>
-      <undefinedType
-        Id="ab5a6ec0-e555-4bbc-b05f-713cfc0f0f01"
-        name="Modeling.Maze::Zame0::Maze" />
-    </packageHasNamedElement>
   </packagedElements>
 </package>
