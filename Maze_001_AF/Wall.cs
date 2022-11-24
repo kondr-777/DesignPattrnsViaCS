@@ -4,28 +4,16 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Products
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+public class Wall : MapSite
 {
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
-
-	public class Client
-	{
-		private AbstractProductA productA;
-
-		private AbstractProductB productB;
-
-		public Client(AbstractFactory factory)
-		{
-		}
-
-		public void Run()
-		{
-			throw new System.NotImplementedException();
-		}
-
-	}
+    public override void Enter()
+    {
+        Console.WriteLine("Wall");
+    }
 }
 

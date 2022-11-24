@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38FF021E-8EE4-49AA-B892-3165B170E7F5}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{5EE2831D-F201-4B26-96FA-DF413A64D482}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Modeling.Maze_001_AFLib</RootNamespace>
-    <AssemblyName>Modeling.Maze_001_AFLib</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>Maze_001_AF</RootNamespace>
+    <AssemblyName>Maze_001_AF</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,22 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\BombedMazeFactory.cs" />
-    <Compile Include="GeneratedCode\BombedWall.cs" />
-    <Compile Include="GeneratedCode\Direction.cs" />
-    <Compile Include="GeneratedCode\Door.cs" />
-    <Compile Include="GeneratedCode\DoorNeedingSpell.cs" />
-    <Compile Include="GeneratedCode\EnchantedMazeFactory.cs" />
-    <Compile Include="GeneratedCode\EnchantedRoom.cs" />
-    <Compile Include="GeneratedCode\MapSite.cs" />
-    <Compile Include="GeneratedCode\Maze.cs" />
-    <Compile Include="GeneratedCode\MazeFactory.cs" />
-    <Compile Include="GeneratedCode\MazeGame.cs" />
-    <Compile Include="GeneratedCode\Room.cs" />
-    <Compile Include="GeneratedCode\RoomWithBomb.cs" />
-    <Compile Include="GeneratedCode\Spell.cs" />
-    <Compile Include="GeneratedCode\Wall.cs" />
+    <Compile Include="BombedMazeFactory.cs" />
+    <Compile Include="BombedWall.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="Door.cs" />
+    <Compile Include="DoorNeedingSpell.cs" />
+    <Compile Include="EnchantedMazeFactory.cs" />
+    <Compile Include="EnchantedRoom.cs" />
+    <Compile Include="MapSite.cs" />
+    <Compile Include="Maze.cs" />
+    <Compile Include="MazeFactory.cs" />
+    <Compile Include="MazeGame.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="RoomWithBomb.cs" />
+    <Compile Include="Spell.cs" />
+    <Compile Include="Wall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,15 +4,31 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Products
-{
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-	public class ProductB1 : AbstractProductB
+public class Maze
+{
+	private Dictionary<int, Room> rooms = null;
+
+	private Room aRoom;
+
+    public Maze()
+    {
+        this.rooms = new Dictionary<int, Room>();
+    }
+
+    public void AddRoom(Room room)
 	{
-	}
+        rooms.Add(room.RoomNumber, room);
+    }
+
+	public Room RoomNo(int number)
+	{
+        return rooms[number];
+    }
+
 }
 

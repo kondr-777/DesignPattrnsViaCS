@@ -4,15 +4,32 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Products
-{
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-	public abstract class AbstractProductA
+public class MazeFactory
+{
+	public virtual Door MakeDoor(Room room1, Room room2)
 	{
+        return new Door(room1, room2);
 	}
+
+	public virtual Maze MakeMaze()
+	{
+        return new Maze();
+	}
+
+	public virtual Room MakeRoom(int number)
+	{
+        return new Room(number);
+	}
+
+	public virtual Wall MakeWall()
+	{
+        return new Wall();
+	}
+
 }
 

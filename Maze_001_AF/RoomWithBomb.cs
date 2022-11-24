@@ -4,15 +4,18 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Products
-{
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-	public class ProductA1 : AbstractProductA
-	{
-	}
+/// <summary>
+/// Комната с Бомбой
+/// </summary>
+public class RoomWithBomb : Room
+{
+    public RoomWithBomb(int roomNo) : base(roomNo)
+    {
+    }
 }
 

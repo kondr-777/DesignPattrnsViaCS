@@ -10,9 +10,25 @@ using System.Linq;
 using System.Text;
 
 /// <summary>
-/// Комната с Бомбой
+/// Фабрика для создания комнат с бомбой.
 /// </summary>
-public class RoomWithBomb : Room
+public class BombedMazeFactory : MazeFactory
 {
+	/// <summary>
+	///  Метод создает комнату с бомбой.
+	/// </summary>
+	public override Room MakeRoom(int number)
+	{
+        return new RoomWithBomb(number);
+	}
+
+	/// <summary>
+	///  Метод создает взорванные стены.
+	/// </summary>
+	public override Wall MakeWall()
+	{
+        return new BombedWall();
+	}
+
 }
 
