@@ -4,15 +4,25 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbctractFactory
-{
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-	internal class PepsiCover : AbstractCover
+public class EnchantedMazeFactory : MazeFactory
+{
+	public virtual Spell CastSpell()
 	{
+        return null;
 	}
+    public override Room MakeRoom(int number)
+    {
+        return new EnchantedRoom(number, CastSpell());
+    }
+    public override Door MakeDoor(Room room1, Room room2)
+    {
+        return new DoorNeedingSpell(room1, room2);
+    }
+
 }
 

@@ -15,30 +15,39 @@ using System.Text;
 public class Room : MapSite
 {
 	private Dictionary<Direction,MapSite> sides;
+    private Spell spell;
+    private int roomNo;
 
-	public int RoomNumber
+    public Room(int roomNo)
+    {
+        this.roomNo = roomNo;
+        sides = new Dictionary<Direction, MapSite>(4);
+    }
+
+    public Room(int roomNo, Spell spell) : this(roomNo)
+    {
+        this.spell = spell;
+    }
+
+    public int RoomNumber
 	{
-		get;
-		private set;
+		get { return this.roomNo; }
+		private set { roomNo = value; }
 	}
 
-	public Room(int roomNo)
+    public MapSite GetSide(Direction direction)
 	{
-	}
-
-	public MapSite GetSide(Direction direction)
-	{
-		throw new System.NotImplementedException();
-	}
+        return sides[direction];
+    }
 
 	public void SetSide(Direction direction, MapSite mapSide)
 	{
-		throw new System.NotImplementedException();
-	}
+        this.sides.Add(direction, mapSide);
+    }
 
     public override void Enter()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Room");
     }
 }
 

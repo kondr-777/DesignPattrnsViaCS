@@ -11,24 +11,29 @@ using System.Text;
 
 public class Door : MapSite
 {
-	private object room1;
+	private Room room1;
 
-	private object room2;
+	private Room room2;
 
 	private bool isOpen;
 
 	public Door(Room room1, Room room2)
 	{
-	}
+        this.room1 = room1;
+        this.room2 = room2;
+    }
 
-	public void OtherSideFrom(Room room)
+	public Room OtherSideFrom(Room room)
 	{
-		throw new System.NotImplementedException();
-	}
+        if(room == room1)
+            return room2;
+        else
+            return room1;
+    }
 
     public override void Enter()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Door");
     }
 }
 

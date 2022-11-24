@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Modeling.ProductsLib")]
+[assembly: AssemblyTitle("Maze_001_AF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Modeling.ProductsLib")]
+[assembly: AssemblyProduct("Maze_001_AF")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("5e5b53dc-2e9f-4e49-bfe4-11e8fd88bd3b")]
+[assembly: Guid("5ee2831d-f201-4b26-96fa-df413a64d482")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

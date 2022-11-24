@@ -4,15 +4,28 @@
 //     В случае повторного создания кода изменения, внесенные в этот файл, будут потеряны.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace AbctractFactory
-{
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-	internal class PepsiWater : AbstractWater
+/// <summary>
+/// Заколдованная комната
+/// </summary>
+public class EnchantedRoom : Room
+{
+	private Spell spell;
+
+	public EnchantedRoom(int roomNo):base(roomNo)
 	{
+        this.spell = null;
+
+    }
+
+	public EnchantedRoom(int roomNo, Spell spell):base(roomNo, spell)
+	{
+        this.spell = spell;
 	}
+
 }
 

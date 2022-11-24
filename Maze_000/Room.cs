@@ -22,7 +22,7 @@ namespace Zame0
     /// </summary>
     public class Room : MapSite
     {
-        public virtual int RoomNumber
+        public int RoomNumber
         {
             get;
             private set;
